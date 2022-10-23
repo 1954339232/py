@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'c:\Users\HP\Desktop\py\py\untitled.ui'
+# Form implementation generated from reading ui file 'c:\Users\HP\Desktop\py\py\123.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #
@@ -18,8 +18,8 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(110, 80, 561, 351))
-        self.label.setStyleSheet("border-image: url(:/image/123.png);")
+        self.label.setGeometry(QtCore.QRect(130, 70, 561, 441))
+        self.label.setStyleSheet("border-image: url(:/images/123.jpg);")
         self.label.setText("")
         self.label.setObjectName("label")
         MainWindow.setCentralWidget(self.centralwidget)
@@ -36,5 +36,5 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "UI"))
-import 1_rc
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+import c123_rc
